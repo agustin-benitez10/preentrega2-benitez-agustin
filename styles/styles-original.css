@@ -135,4 +135,46 @@ section ul li {
     grid-gap: 20px;
 }
 
+/* CSS para el formulario de contacto */
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
 
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form .btn {
+    width: 100%;
+    padding: 10px;
+}
+
+/* CSS para centrar las imágenes de redes sociales */
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-container a img {
+    margin: 0 10px;
+}

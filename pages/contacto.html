@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles-original.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Document</title>
 </head>
@@ -34,12 +34,13 @@
     <main>
         <section>
             <h2>¡Encontranos en nuestras redes!</h2>
-            <div>
+            <div class="social-media-container">
                 <a href="https://www.whatsapp.com/"><img src="../img/inconos-redes/whatsapp.png" alt="Whatsapp"></a>
                 <a href="https://www.instagram.com"><img src="../img/inconos-redes/insta.png" alt="Instagram"></a>
                 <a href="https://www.facebook.com"><img src="../img/inconos-redes/facebook.png" alt="Facebook"></a>
             </div>
         </section>
+        
 
         <section>
             <h2>¡Encontranos en nuestra sucursal física!</h2>
@@ -54,6 +55,27 @@
                 <li><img src="../img/metodos-envio.jpg" alt="Métodos de Envío"></li>
                 <li><p>Número de Defensa al Consumidor: 0351 434-1378</p></li>
             </ul>
+        </section>
+
+        <section>
+            <h2>Contactanos</h2>
+            <div class="contact-form-container">
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="4" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
         </section>
     </main>
 
